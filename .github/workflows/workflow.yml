@@ -3,6 +3,8 @@ name: Test Concurrency setup
 
 on: push #workflow_dispatch
 
+concurrency: camera_pool
+
 jobs:
   setup:
     runs-on: self-hosted
