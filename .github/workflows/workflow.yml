@@ -20,7 +20,7 @@ jobs:
 
       - name: Sleep for a while
         run: |
-          sleep 1m
+          sleep 30
 
       - name: Get basic device info
         run: |
